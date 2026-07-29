@@ -1,2 +1,2 @@
 def testd():
-    return "test"
+    return "test2"
