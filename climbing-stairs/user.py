@@ -1,5 +1,5 @@
 """
- 사용 예시::
+ 사용 예시:::
 
  ```python
  print(solution())
