@@ -1,3 +1,4 @@
 function solution01(numbers) {
-  return numbers.reduce((aggregate, number) => aggregate + number, 0);
+  const sum = numbers.reduce((aggregate, number) => aggregate + number, 0);
+  return sum;
 }
