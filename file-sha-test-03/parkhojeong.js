@@ -1,3 +1,5 @@
 function solution03(numbers) {
-  return numbers.reduce((sum, number) => sum + number, 0);
+  let sum = 0;
+  for (const number of numbers) sum += number;
+  return sum;
 }

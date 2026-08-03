@@ -1,3 +1,4 @@
 function solution05(numbers) {
-  return numbers.reduce((sum, number) => sum + number, 0);
+  const total = numbers.reduce((sum, number) => sum + number, 0);
+  return total;
 }
