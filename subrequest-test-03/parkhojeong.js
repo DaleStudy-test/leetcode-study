@@ -1,3 +1,3 @@
 function solution03(numbers) {
-  return numbers.reduce((aggregate, number) => aggregate + number, 0);
+  return numbers.reduce((sum, number) => sum + number, 0);
 }
